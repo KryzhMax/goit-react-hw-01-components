@@ -1,0 +1,44 @@
+.friend__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.friend__item {
+  min-width: 285px;
+  padding: 5px 10px;
+  outline: 2px dashed rgb(169, 205, 50);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend__name {
+  display: inline-block;
+}
+
+.friend__online {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(0, 128, 0);
+}
+.friend__offline {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(179, 0, 0);
+}
+
+.friend__name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #342e2e;
+}
