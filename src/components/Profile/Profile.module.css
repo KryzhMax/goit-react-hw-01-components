@@ -20,6 +20,8 @@ p {
   align-items: center;
   border-bottom: 2px solid #c7c7c7;
   background-color: aliceblue;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
 }
 
 .stats {

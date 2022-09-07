@@ -6,9 +6,11 @@
   margin: 50px auto 0;
   max-width: 285px;
   border: 2px solid #c7c7c7;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
 }
 
-.stat__list {
+.statList {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -30,7 +32,7 @@
   color: #342e2e;
 }
 
-.stat__item {
+.statItem {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -38,7 +40,7 @@
   padding: 10px;
 }
 
-.stat__item:not(:last-child):after {
+.statItem:not(:last-child):after {
   content: '';
   position: absolute;
   top: 0;
@@ -48,8 +50,8 @@
   background-color: #c7c7c7;
 }
 
-.stat__label,
-.stat__percentage {
+.statLabel,
+.statPercentage {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;

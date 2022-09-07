@@ -1,4 +1,5 @@
-.friend__list {
+.friendList {
+  margin-top: 50px;
   padding: 0;
   list-style: none;
   display: flex;
@@ -8,7 +9,7 @@
   gap: 15px;
 }
 
-.friend__item {
+.friendItem {
   min-width: 285px;
   padding: 5px 10px;
   outline: 2px dashed rgb(169, 205, 50);
@@ -17,18 +18,27 @@
   align-items: center;
 }
 
-.friend__name {
+.friendName {
   display: inline-block;
 }
 
-.friend__online {
+/* .friend {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+} */
+
+.friendOnline {
+  /* composes: friend; */
   display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: rgb(0, 128, 0);
 }
-.friend__offline {
+.friendOffline {
+  /* composes: friend; */
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -36,7 +46,7 @@
   background-color: rgb(179, 0, 0);
 }
 
-.friend__name {
+.friendName {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
