@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/KryzhMax/goit-react-hw-01-components.git/static/css/main.bff7fe93.css",
-    "main.js": "/KryzhMax/goit-react-hw-01-components.git/static/js/main.2c69f0a4.js",
+    "main.css": "/KryzhMax/goit-react-hw-01-components.git/static/css/main.c2b97b63.css",
+    "main.js": "/KryzhMax/goit-react-hw-01-components.git/static/js/main.d8ae9514.js",
     "index.html": "/KryzhMax/goit-react-hw-01-components.git/index.html",
-    "main.bff7fe93.css.map": "/KryzhMax/goit-react-hw-01-components.git/static/css/main.bff7fe93.css.map",
-    "main.2c69f0a4.js.map": "/KryzhMax/goit-react-hw-01-components.git/static/js/main.2c69f0a4.js.map"
+    "main.c2b97b63.css.map": "/KryzhMax/goit-react-hw-01-components.git/static/css/main.c2b97b63.css.map",
+    "main.d8ae9514.js.map": "/KryzhMax/goit-react-hw-01-components.git/static/js/main.d8ae9514.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff7fe93.css",
-    "static/js/main.2c69f0a4.js"
+    "static/css/main.c2b97b63.css",
+    "static/js/main.d8ae9514.js"
   ]
 }
