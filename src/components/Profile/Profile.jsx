@@ -8,9 +8,8 @@ export function Profile({ username, tag, location, avatar, stats }) {
     <div className={css.profile}>
       <div className={css.description}>
         <Avatar
-          src={avatar}
           size="150"
-          name={avatar}
+          name={username}
           round={true}
           className={css.avatar}
         />
