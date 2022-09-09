@@ -4,10 +4,12 @@
   justify-content: center;
   align-items: center;
 
-  width: 250px;
+  width: 230px;
   margin: 50px auto 0;
   border: 2px solid #c7c7c7;
   border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
 }
 
 .description {
@@ -16,17 +18,14 @@
   justify-content: center;
   align-items: center;
   padding: 20px 0;
-
+  width: 100%;
   border-bottom: 2px solid #c7c7c7;
-  background-color: aliceblue;
-  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
-    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+  background-color: #e3e3e3;
 }
 
 .stats {
   width: 100%;
   list-style: none;
-  margin: 0;
   display: flex;
   justify-content: center;
   background-color: rgb(203, 231, 255);
@@ -38,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   padding: 10px 0;
-  min-width: 80px;
+  min-width: 77px;
 }
 
 .statsItem:not(:last-child):after {
@@ -56,19 +55,20 @@
 
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   color: #4a4a4a;
 }
 
 .avatar {
   margin-bottom: 10px;
+  max-width: 150px;
 }
 
 .tag,
 .location {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   color: #7c7c7c;
   margin-bottom: 10px;
 }

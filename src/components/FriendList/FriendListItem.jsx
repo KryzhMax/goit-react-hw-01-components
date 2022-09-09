@@ -1,4 +1,5 @@
 import css from './FriendList.module.css';
+import Avatar from 'react-avatar';
 
 export function FriendListItem({ avatar, name, isOnline }) {
   return (
@@ -8,12 +9,18 @@ export function FriendListItem({ avatar, name, isOnline }) {
           className={isOnline ? css.friendOnline : css.friendOffline}
         ></span>
       }
-      <img
+      <Avatar
         className={css.friend__avatar}
         src={avatar}
         alt="User avatar"
-        width="48"
+        size="40"
       />
+      {/* <img
+        className={css.friend__avatar}
+        src={avatar}
+        alt="User avatar"
+        width="40"
+      /> */}
       <p className={css.friendName}>{name}</p>
     </li>
   );

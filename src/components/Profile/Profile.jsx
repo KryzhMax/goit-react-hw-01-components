@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import Avatar from 'react-avatar';
 import css from './Profile.module.css';
 
 export function Profile({ username, tag, location, avatar, stats }) {
@@ -6,11 +7,12 @@ export function Profile({ username, tag, location, avatar, stats }) {
   return (
     <div className={css.profile}>
       <div className={css.description}>
-        <img
+        <Avatar
           src={avatar}
-          alt="User avatar"
+          size="150"
+          name={avatar}
+          round={true}
           className={css.avatar}
-          width="250"
         />
         <p className={css.name}>{username}</p>
         <p className={css.tag}>{tag}</p>
